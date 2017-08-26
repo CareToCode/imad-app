@@ -11,7 +11,6 @@ var articleOne= {
     content : 'Look what you made me do.'
     
 };
-
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
@@ -34,7 +33,6 @@ var htmlTemplate = `
             <p>${content}</p>
         </div>
 </html>
-
 `;
 return html;
 }
