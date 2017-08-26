@@ -15,9 +15,8 @@ function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
     var content = data.content;
-var htmlTemplate = ` 
-<html>
-    <head>
+var htmlTemplate = `<html>
+                 <head>
         <title>${title}</title>
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
@@ -32,9 +31,8 @@ var htmlTemplate = `
         
             <p>${content}</p>
         </div>
-</html>
-`;
-return html;
+</html>`;
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
