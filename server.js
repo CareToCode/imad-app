@@ -36,7 +36,7 @@ var htmlTemplate = `
 </html>
 
 `;
-return html
+return html;
 }
 
 app.get('/', function (req, res) {
